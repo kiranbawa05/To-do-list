@@ -1,0 +1,13 @@
+.todo_firstdiv{
+    background-color: aqua;
+    width: 30%;
+    height: 50%;
+    color: black;
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
