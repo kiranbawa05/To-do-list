@@ -47,6 +47,9 @@ li {
     align-items: center;
     justify-items: center;
     width:30vh;
+    background-color: rgba(0, 0, 0, 0.599);
+    padding: 20px;
+    border-radius: 10px;
 }
 #time{
     height:23px;
@@ -56,6 +59,8 @@ li {
 }
 .inputs{
     border-radius: 100px;
+    display: flex;
+    gap:30px
 }
 .container{
     display: flex;
@@ -65,5 +70,10 @@ li {
     margin-top: 50px;
 }
 
-
+#list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: white;
+}
 

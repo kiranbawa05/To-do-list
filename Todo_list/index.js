@@ -24,6 +24,5 @@ const add=()=>{
     document.getElementById("list").appendChild(li);
 
     input.value="";
-
     
 }
