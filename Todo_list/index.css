@@ -16,18 +16,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.599);
+    background-color: rgba(0, 0, 0, 0.54);
     border-radius: 10px;
     padding: 30px;
     width:600px;
     gap: 15px;
+    border: 2px solid;
 }
 button{
     background-color: white ;
     color: black;
     border-radius: 5px;
-    height:23px;
-    width:50px;
+    height:25px;
+    width:70px;
+    border: 2px solid;
 }
 body{
     height: 100vh;
@@ -43,24 +45,38 @@ ul {
 
 li {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    justify-items: center;
-    width:30vh;
-    background-color: rgba(0, 0, 0, 0.599);
-    padding: 20px;
+    width:500px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 15px;
     border-radius: 10px;
 }
 #time{
-    height:23px;
+    height:30px;
+    width: 80px;
+    text-indent: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid;
+
 }
 #text{
-    height:23px;
+    height:30px;
+    width:300px;
+    border-radius: 5px;
+    text-indent: 5px;
+    font-size: 15px;
+    border: 2px solid;
+
 }
 .inputs{
     border-radius: 100px;
     display: flex;
-    gap:30px
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    
 }
 .container{
     display: flex;
@@ -74,6 +90,6 @@ li {
     display: flex;
     flex-direction: column;
     gap:10px;
-    color: white;
+    width: 500px;
 }
 
