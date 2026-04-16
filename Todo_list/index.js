@@ -3,11 +3,13 @@ const add=()=>{
     let input=document.getElementById("text"); //got the text
     let item=input.value;
     if (item=="") return; //base case
+
     let time = document.getElementById("time").value;
     if (item == "" || time == "") {
         alert("Fill both fields");
         return;
     }
+    
     let tasks=JSON.parse(localStorage.getItem("tasks"))||[];
     if (editIndex === -1) {
         // normal add
